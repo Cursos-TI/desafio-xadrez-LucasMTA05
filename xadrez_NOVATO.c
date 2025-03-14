@@ -12,6 +12,7 @@ int main(){
 
     printf ("O bispo se moveu %d casa(s) para cima-direita\n", bispo);
   } // A peça inicia com o valor 1, e a cada execução o seu valor aumenta para simular as casas andadas. A mesma lógica se aplica para as peças seguintes
+    printf ("\n");
 
 
 
@@ -19,6 +20,7 @@ int main(){
     printf ("A torre se moveu %d casa(s) para a direita\n", torre);
     torre++;
   }
+  printf ("\n");
 
 
 
