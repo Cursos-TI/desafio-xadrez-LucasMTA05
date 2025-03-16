@@ -33,11 +33,11 @@ int main(){
 
 
 
-  for (cavalo1 = 1; cavalo1 <= 2; cavalo1++);
+  for (cavalo1 = 0; cavalo1 <= 1; cavalo1++);
   //Loop aninhado para representar o movimento do cavalo
    {
-      for (cavalo2 = 1; cavalo1 == 2; cavalo2--);
-      //O cavalo começará se movimentando para baixo, e quando ele chegar lá (o valor de cavalo1 for 2), ele andará uma casa para o lado
+      for (cavalo2 = 1; cavalo1 == 1; cavalo2--);
+      //O cavalo começará se movimentando para baixo, e quando ele chegar lá (o valor de cavalo1 for 1), ele andará uma casa para o lado
       {
          printf ("O cavalo se moveu %d casa(s) para baixo\n", cavalo1);
       
